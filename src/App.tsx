@@ -138,6 +138,7 @@ const Nav = styled.nav`
 				width: 100%;
     		font-size: 1.3rem;
 				font-family: Comic Sans MS, sans-serif;
+				cursor: pointer;
 					&.active {
 						@media (hover: hover) {
 							&:hover {
