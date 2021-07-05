@@ -225,9 +225,12 @@ const Content = styled.div`
 			color: ${({ theme }) => theme.linkText};
 		}
   }
+	img {
+		margin: 30px auto;
+	}
 	@media screen and (min-width: 768px) {
 		height: 100%;
-		padding: 30px 8%;
+		padding: 30px 8% 100px 8%;
     width: 85%;
     margin-left: 15%;
 			h3 {
@@ -236,6 +239,10 @@ const Content = styled.div`
 			p {
 				font-size: 1.5rem;
 				letter-spacing: 1px;
+			}
+			img {
+				margin: 50px auto;
+				max-width: 40%;
 			}
 	}
 	@media screen and (min-width: 1000px) {
