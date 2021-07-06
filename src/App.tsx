@@ -216,7 +216,7 @@ const Content = styled.div`
   }
   p {
     font-family: American Typewriter, serif;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 		color: ${({ theme }) => theme.bodyText};
     &:empty {
       display: none;
@@ -239,6 +239,7 @@ const Content = styled.div`
 			p {
 				font-size: 1.5rem;
 				letter-spacing: 1px;
+    		margin-bottom: 30px;
 			}
 			img {
 				margin: 50px auto;
